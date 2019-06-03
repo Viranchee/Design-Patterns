@@ -112,6 +112,7 @@ public class MacBuilder {
 
 /// MARK: - Director
 public class Student {
+    public init() { }
     public func create_Portable_Mac() -> Mac {
         let builder = MacBuilder()
         builder.change_Type(new_type: .macbook_air)
@@ -137,4 +138,12 @@ public class Student {
         
         return builder.build()
     }
+}
+
+/// MARK: - Implementation of Builder
+
+public func builder_Build_Finest_Mac() -> Mac {
+    let student = Student()
+    return student.create_Powerful_Mac()
+    
 }
