@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Singleton, Delegate.playground">
+      location = "group:Design Patterns.playground">
    </FileRef>
    <FileRef
-      location = "group:Design Patterns.playground">
+      location = "group:Singleton, Delegate.playground">
    </FileRef>
 </Workspace>

@@ -65,4 +65,8 @@ vc.get_Forecast()
 print(isKnownUniquelyReferenced(&BluetoothProvider.shared))
 
 var anotherReference = BluetoothProvider.shared
+
 print(isKnownUniquelyReferenced(&anotherReference))
+
+print(isKnownUniquelyReferenced(&BluetoothProvider.shared))
+
