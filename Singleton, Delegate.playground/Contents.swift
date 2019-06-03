@@ -46,7 +46,6 @@ class MyViewController : UIViewController {
         delegate = to_Delegate
     }
     
-    
 }
 
 let vc = MyViewController()
@@ -59,3 +58,11 @@ vc.changeDelegate(to_Delegate: OpenWeather(city: "Tokyo"))
 
 vc.get_Forecast()
 
+
+
+
+
+print(isKnownUniquelyReferenced(&BluetoothProvider.shared))
+
+var anotherReference = BluetoothProvider.shared
+print(isKnownUniquelyReferenced(&anotherReference))
