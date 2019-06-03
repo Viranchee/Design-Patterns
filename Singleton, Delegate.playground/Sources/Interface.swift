@@ -1,7 +1,9 @@
 import Foundation
 
+/// #define Temperature Int
 public typealias Temperature = Int
 
+/// Interface = Protocols in Swift
 public protocol WeatherProvider {
     
     var city: String { get }
