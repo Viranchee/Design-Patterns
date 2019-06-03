@@ -1,6 +1,6 @@
 import Foundation
 
-class BluetoothProvider {
-    static var shared = BluetoothProvider()
+public class BluetoothProvider {
+    public static var shared = BluetoothProvider()
     private init() { }
 }
