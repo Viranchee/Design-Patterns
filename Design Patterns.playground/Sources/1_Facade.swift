@@ -18,3 +18,13 @@ public func radius_From(diameter: Float) -> Float {
 }
 
 // SpawnFacade
+/// Facade
+public func facade_Calculate_Area_From(_ diameter: Float) -> Float{
+    /// Formula = Pi * Radius squared
+    
+    let radius = radius_From(diameter: diameter)
+    let squared_Radius = square(number: radius)
+    let area = pi() * squared_Radius
+    
+    return area
+}
